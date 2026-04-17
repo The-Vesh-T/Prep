@@ -4,3 +4,4 @@
 - Notes on patterns and concepts
 - Backtesters 
 - Probability simulations
+- Algorithms and Systems
