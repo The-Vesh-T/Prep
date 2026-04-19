@@ -1,4 +1,4 @@
-# Notes and Things Learned
+# Backtester Notes and Things Learned
 
 ## Initial backtester creation 4 / 19 / 2026
 - While based off data we can assume a Fair value, if something major happens this can change resulting in the algorithm to fully break. We should therefore use rolling averages which require looking at a set amount of data from the whole. This can be achieved using window!

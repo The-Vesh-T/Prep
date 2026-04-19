@@ -1,4 +1,4 @@
-# Patterns and Thought Process
+# Patterns and Thought Process for Leetcode / Neetcode
 
 ## Contains Duplicate 4/17/2026
 Given an array of ints, does it contain duplicate values?
