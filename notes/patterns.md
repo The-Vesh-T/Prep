@@ -27,7 +27,7 @@ Theoretically you can also make it more compact by checking the size of the set 
 Since sets not allowed dupes if its shorter than original list, there must be a dupe.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
-## Two Sum Integer 4/18/2026
+## Two Sum Integer 4/18-19/2026 
 Given an array of integers, check if the sum of two numbers in the array == target
 ### Pattern
 - Array of values
@@ -43,3 +43,15 @@ So we initialize a hashmap, iterate through the values and calculate the diff. i
 - hashmap[ num ] = i is different than hashmap[ i ] = num. It changes the key value pair. Must rmr this depending on whats needed, and what return!
 - What you want to return matters since it also affects how you iterate through list. For example if you want to return an index, you should loops through based off indices.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------
+## Valid Anagram 4/19/2026
+Return true if the strings are anagrams of each other. 
+
+### Pattern
+We're given strings, and asked whether they contain the same letters as each other. Usually when checking if strings, lists, or arrays are similar we use hash map. Strings can be put into the form of a list or array by using the sort method.
+
+### Sorting
+We can sort the string by using the python function sort(). This puts it into list format for example. ("CAB") would turn into ["A", "B", "C"]. From this we can just compare the two strings. Sorting takes O(n lg n) time and since we sort 2 strings it'd be O(n lg n) + O(m lg m) but we also have the time complexity of comparing the strings which at worst is O(n). However sorting is slower therefore this time complexity is: O(nlgn + mlgm)
+
+### Hash Map
+I assume this is a faster solution because of pattern recognition. Will figure out tomorrow.
