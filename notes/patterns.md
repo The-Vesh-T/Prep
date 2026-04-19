@@ -41,4 +41,5 @@ We use a hashmap which helps us have an instant lookup. The key here is that we 
 So we initialize a hashmap, iterate through the values and calculate the diff. if diff in hashmap return small index, curr index. if not there then add the current index into the hashmap by linking the num to the current index. 
 - hashmap[ number ] returns index
 - hashmap[ num ] = i is different than hashmap[ i ] = num. It changes the key value pair. Must rmr this depending on whats needed, and what return!
+- What you want to return matters since it also affects how you iterate through list. For example if you want to return an index, you should loops through based off indices.
 
